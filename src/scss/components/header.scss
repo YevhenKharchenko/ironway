@@ -1,11 +1,15 @@
 .header {
-  background: #0c1e29;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #fff;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 10;
 
   @include media(desktop) {
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
 
@@ -13,20 +17,17 @@
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/hero/hero-bg-mob.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: auto;
 
   @include media(desktop) {
     max-width: 1440px;
-    background-image: url(../img/hero/hero-bg-desk.png);
   }
 }
 
 .header-container {
+  padding: 0 30px;
+
   @include media(desktop) {
-    padding: 0 112px;
+    padding: 0 114px;
   }
 }
 
@@ -72,14 +73,13 @@
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.25;
+  line-height: 1.5;
   text-align: center;
-  color: #fff;
+  color: #364153;
   transition: color 0.3s ease-in-out;
 
   &:hover,
   &.active {
-    color: #fd9867;
   }
 }
 
@@ -91,11 +91,11 @@
     justify-content: center;
     align-items: center;
     box-shadow:
-      0 -1px 8px -4px rgba(253, 152, 103, 0.1),
-      0 0 20px -3px rgba(253, 152, 103, 0.3);
-    background: linear-gradient(180deg, #fd9867 0%, #5d2230 100%);
-    border-radius: 33554400px;
-    padding: 8px 22px;
+      0 3px 4px -4px rgba(173, 70, 255, 0.3),
+      0 4px 15px -3px rgba(173, 70, 255, 0.3);
+    background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
+    border-radius: 8px;
+    padding: 8px 16px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -116,4 +116,5 @@
 }
 
 .menu-icon {
+  stroke: #1e1e1e;
 }
