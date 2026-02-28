@@ -1,0 +1,133 @@
+.benefits-section {
+}
+
+.benefits-bg-wrapper {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1440px;
+  }
+}
+
+.benefits-container {
+  @include media(desktop) {
+  }
+}
+
+.benefits-title {
+  @include media(desktop) {
+  }
+}
+
+.benefits-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 333px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.55556;
+    max-width: max-content;
+  }
+}
+
+.benefits-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 199px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    gap: 20px;
+    max-width: 255px;
+    margin-bottom: 36px;
+  }
+}
+
+.benefits-list-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  @include media(desktop) {
+  }
+}
+
+.benefits-item-img-wrapper {
+  box-shadow:
+    0 4px 6px -4px rgba(253, 152, 103, 0.1),
+    0 10px 15px -3px rgba(253, 152, 103, 0.1);
+  background: linear-gradient(
+    135deg,
+    rgba(253, 152, 103, 0.2) 0%,
+    rgba(93, 34, 48, 0.2) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    min-width: 56px;
+    height: 56px;
+  }
+}
+
+.benefits-icon {
+  min-width: 28px;
+
+  @include media(desktop) {
+  }
+}
+
+.benefits-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 2;
+  color: #f4f7fa;
+
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+.benefits-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.55556;
+  }
+}
