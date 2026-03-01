@@ -1,11 +1,16 @@
 .hero-section {
+  @include media(desktop) {
+  }
+}
+
+.hero-top-wrapper {
   background: linear-gradient(135deg, #faf5ff 0%, #fdf2f8 50%, #fff 100%);
 
   @include media(desktop) {
   }
 }
 
-.hero-wrapper {
+.hero-bg-wrapper {
   padding-top: 93px;
   max-width: 375px;
   margin: 0 auto;
@@ -18,6 +23,14 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: auto;
+  }
+}
+
+.hero-bottom-wrapper {
+  padding-top: 20px;
+
+  @include media(desktop) {
+    display: none;
   }
 }
 
@@ -114,14 +127,15 @@
   border: 2px solid #f3e8ff;
   border-radius: 16px;
   padding: 24px;
-  width: 100%;
-  max-width: 230px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  width: 100%;
+  max-width: 315px;
 
   @include media(desktop) {
+    max-width: 230px;
   }
 }
 
@@ -213,5 +227,16 @@
 
   @include media(desktop) {
     margin: 0;
+  }
+}
+
+.hero-list-mob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    display: none;
   }
 }

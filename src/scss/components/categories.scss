@@ -181,12 +181,13 @@
   border-radius: 16px;
   padding: 8px 14px;
   margin-top: 10px;
+  max-width: 346px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
     padding: 28px;
     max-width: 998px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 30px;
   }
 }
