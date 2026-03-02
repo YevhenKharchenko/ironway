@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://longfield.pro/sitemap.xml
+Sitemap: https://ironway.space/sitemap.xml

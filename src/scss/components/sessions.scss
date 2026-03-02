@@ -28,7 +28,12 @@
 }
 
 .sessions-title {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
   @include media(desktop) {
+    max-width: max-content;
   }
 }
 

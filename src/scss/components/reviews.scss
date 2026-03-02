@@ -37,7 +37,12 @@
 }
 
 .reviews-title {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
   @include media(desktop) {
+    max-width: max-content;
   }
 }
 
@@ -199,6 +204,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include media(desktop) {
+  }
+}
+
+.reviews-avatar-img {
+  min-width: 24px;
 
   @include media(desktop) {
   }
