@@ -14,15 +14,16 @@
   padding-top: 93px;
   max-width: 375px;
   margin: 0 auto;
+  background-image: url(../img/hero/hero-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
 
   @include media(desktop) {
     padding-top: 174px;
     padding-bottom: 82px;
     max-width: 1440px;
     background-image: url(../img/hero/hero-bg-desk.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: auto;
   }
 }
 
